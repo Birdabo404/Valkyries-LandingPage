@@ -2,18 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: 2px solid red;
 }
 
 .container {
     background-color: #000000;
     width: 100%;
     min-height: 100vh;
-    padding: 20px auto;
+    padding: 20px 20px;
 }
 
 nav {
     display: flex;
-    align-items: center;
+
 }
 
 nav .item-logo{
@@ -24,4 +25,17 @@ nav .item-logo{
 nav ul {
     flex: 1;
     text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    font-family: monospace;
+    list-style: none;
+    padding: 0 20px;
+    letter-spacing: 1px;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
 }

@@ -39,3 +39,13 @@ nav ul li a {
     color: whitesmoke;
     text-decoration: none;
 }
+
+.container-search {
+    position: relative;
+}
+
+.centerLogo {
+    width: 100%;
+    width: 400px;
+    min-height: 400px;
+}

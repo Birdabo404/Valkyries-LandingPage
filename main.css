@@ -40,12 +40,17 @@ nav ul li a {
     text-decoration: none;
 }
 
-.container-search {
-    position: relative;
+.container-search img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 400px;
+    height: 400px;
 }
 
-.centerLogo {
-    width: 100%;
+.centerLogo img {
+    max-width: 100%;
     width: 400px;
-    min-height: 400px;
+    height: 400px;
+    
 }
